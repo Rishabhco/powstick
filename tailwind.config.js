@@ -5,6 +5,10 @@ module.exports = {
   ],
   theme: {
     extend: {},
+    fontFamily: {
+      'body': ['"Open Sans"'],
+      'heading':["Merriweather"],
+    }
   },
   plugins: [],
 }

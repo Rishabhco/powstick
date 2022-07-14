@@ -9,16 +9,15 @@ import { BrowserRouter as Router,Routes, Route} from 'react-router-dom';
 function App() {
   return (
     <>
-      <Form/>
       <Router>
-      <Header/>
-      <Routes>
-      <Route path="/" element={<Register/>}></Route>
-      <Route path="/addProduct" element={<Form/>}></Route>
-      <Route path="/updateProduct" element={<Form/>}></Route>
-      </Routes>
-      <Footer/>
-    </Router>
+        <Header/>
+        <Routes>
+          <Route path="/" element={<Register/>}></Route>
+          <Route path="/addProduct" element={<Form/>}></Route>
+          <Route path="/updateProduct" element={<Form/>}></Route>
+        </Routes>
+        <Footer/>
+      </Router>
     </>
   );
 }
